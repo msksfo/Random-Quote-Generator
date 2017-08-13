@@ -1,0 +1,59 @@
+body {
+	background-color: gray;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+#quoteContainer {
+	background-color: oldlace;
+	border: 2px solid purple;
+	min-height: 300px;
+	}
+
+#quotediv {
+	height: 80%;
+	padding: 2%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#buttondiv {
+	display: flex;
+	justify-content: space-between;
+}
+
+button {
+	width: 20%;
+}
+
+
+#tweet {
+	text-decoration: none;
+	display: inline-block;
+	opacity: .6;
+}
+#tweet:hover {
+	opacity: 1;
+}
+
+.hidden {
+	visibility hidden;
+}
+#tooltip {
+	position: relative;
+
+}
+#tooltiptext {
+	color: #000080;
+	position: absolute;
+}
+#tooltip:hover #tooltiptext {
+	visibility: visible;
+}
+
+p {
+	margin-top: 1rem;
+}
+
