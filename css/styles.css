@@ -1,5 +1,5 @@
 body {
-	background-color: gray;
+	background-color: #a9dbdb;
 	height: 100vh;
 	display: flex;
 	align-items: center;
@@ -7,7 +7,7 @@ body {
 
 #quoteContainer {
 	background-color: oldlace;
-	border: 2px solid purple;
+	border: 5px double #F1863C;
 	min-height: 300px;
 	}
 
@@ -38,20 +38,6 @@ button {
 	opacity: 1;
 }
 
-.hidden {
-	visibility hidden;
-}
-#tooltip {
-	position: relative;
-
-}
-#tooltiptext {
-	color: #000080;
-	position: absolute;
-}
-#tooltip:hover #tooltiptext {
-	visibility: visible;
-}
 
 p {
 	margin-top: 1rem;

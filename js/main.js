@@ -23,6 +23,7 @@ newQuoteButton.addEventListener('click', function(){
 		if (myRequest.status >= 200 && myRequest.status < 400){
 
 			var quoteData = JSON.parse(myRequest.responseText);
+			console.log(quoteData);
 			
 			quoteText = quoteData.quoteText;
 
@@ -37,7 +38,8 @@ newQuoteButton.addEventListener('click', function(){
 
 		} else {
 			console.log('Server error');
-		}
+			}
+		
 	
 	} //closes request.onload
 	myRequest.send();
