@@ -1,18 +1,25 @@
+
 body {
 	background-color: #a9dbdb;
 	height: 100vh;
 	display: flex;
 	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+	font-size: 1.2rem;
 }
 
 #quoteContainer {
 	background-color: oldlace;
 	border: 5px double #F1863C;
 	min-height: 300px;
-	}
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+}
 
 #quotediv {
-	height: 80%;
+	flex: 1;
 	padding: 2%;
 	display: flex;
 	justify-content: center;
@@ -20,19 +27,33 @@ body {
 }
 
 #buttondiv {
+	padding: 1.5rem;
 	display: flex;
 	justify-content: space-between;
 }
 
 button {
-	width: 20%;
+	width 20%;
+	background-color: oldlace;
+	outline: none;
+	border: 1px solid #c8c7c5;
+	color: #c8c7c5;
+	padding: .5rem;
+	font-size: 1rem;
+	border-radius: 5px;
 }
 
+button:hover {
+	color: white;
+	background-color: #c8c7c5;
+	cursor: pointer;
+}
 
 #tweet {
 	text-decoration: none;
 	display: inline-block;
 	opacity: .6;
+	color: #00aced;
 }
 #tweet:hover {
 	opacity: 1;
@@ -42,4 +63,23 @@ button {
 p {
 	margin-top: 1rem;
 }
+
+/* ======================== Media Queries ======================== */
+
+
+@media all and (min-width: 800px){
+	#quoteContainer {
+		width: 50%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
 
